@@ -14,12 +14,15 @@
 </head>
 
 <body>
-  <!-- монтажная область 1 -->
-  <section class="signIn signUp container">
-    <div class="logo"></div>
-    <button>Вход</button>
-    <button>Создать аккаунт</button>
-  </section>
+<!-- монтажная область 1 -->
+<section class="signIn signUp container">
+  <div class="logo"></div>
+  <p>Мотивируйте себя на достижения ваших целей.</p>
+  <div>
+  <button>Вход</button>
+  <button>Создать аккаунт</button>
+</div>
+</section>
 
   <!-- монтажная область 2 -->
   <section class="signIn_section container">
@@ -32,17 +35,17 @@
       <p>Номер Телефона</p>
       <input type="text">
     </form>
-    <button>Дальше</button>
+    <button class="signIn-btn">Дальше</button>
   </section>
 
   <!-- монтажная область 3 -->
   <section class="signUp_section container">
     <button class="signUp_header-button">Войти</button>
-    <form action="submit">
+    <form action="submit" class="signUp_form_s3">
       <p>Номер Телефона</p>
       <input type="text">
     </form>
-    <button>Дальше</button>
+    <button class="signUp-btn">Дальше</button>
   </section>
 
   <!-- монтажная область 4 -->
@@ -50,7 +53,7 @@
 
     <form action="submit">
       <div class="user_photo">
-        <p>Сменить фото</p>
+        <p class="change_image_text_s4">Сменить фото</p>
       </div>
       <p>Рост*</p>
       <input type="text">
@@ -59,23 +62,31 @@
       <p>Дата Рождения</p>
       <input type="text">
     </form>
-    <button>Создать</button>
+    <button class="s_4_btn_craete">Создать</button>
   </section>
 
   <!-- монтажная область 5 -->
   <section class="habits container">
     <div class="habits_header">
-      <p>+</p>
+      <div>
+        <!-- Сюда будет прилетать картинка юзера  -->
+      </div>
+      <button class="habits_header_btn">+</button>
     </div>
+    <div class="dates_container_s5">
     <h2>Привычки</h2>
-    <div class="habits_dates"></div>
+    <div class="habits_dates">*Календарь*</div>
+  </div>
     <div class="habits_area">
+      У вас пока нет привычек  Нажмите +, чтобы  добавить первую.
       <!-- сюда встраивается элемент привычки -->
     </div>
   </section>
   <!-- 3 формы с разными фоновыми цветами -->
   <article class="newHabit_modal container">
-    <h2>Новая Привычка</h2>
+    
+    <h2 class="">Новая Привычка</h2>
+  
     <form action="submit">
       <p>Название</p>
       <input type="text">
@@ -95,9 +106,9 @@
   <section class="habit_window container">
 
     <div class="habit_window-header">
-      <button>Назад</button>
+      <button class="s8_like_plusik">Назад</button>
       <h3>Зарядка</h3>
-      <button>Править</button>
+      <button class="s8_like_plusik">Править</button>
     </div>
 
     <h4>Прогресс</h4>
@@ -113,10 +124,10 @@
     <div class="habit_window-calendar">
       <!-- тут календарь встраивается -->
     </div>
-
-    <button>Удалить прогресс</button>
-    <button>Удалить привычку</button>
-
+    <div class="mather_of_buttons">
+    <button class="s8_btn_btr">Удалить прогресс</button>
+    <button class="s8_btn_btr">Удалить привычку</button>
+  </div>
   </section>
 
 </body>
