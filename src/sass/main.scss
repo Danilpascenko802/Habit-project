@@ -27,7 +27,7 @@ $baseFontSize: 16px;
   align-items: center;
   /* padding: 100px 0; */
   border: 1px solid;
-  height: 570px;
+  height: 566px;
 }
 
 .signIn {
@@ -322,8 +322,8 @@ $baseFontSize: 16px;
 
 
 
-.s8_btn_btr{
-  
+.s8_btn_btr {
+
   display: block;
   background: initial;
   border: none;
@@ -341,7 +341,7 @@ $baseFontSize: 16px;
 }
 
 
-.mather_of_buttons{
+.mather_of_buttons {
   position: absolute;
   bottom: 100px;
 }
@@ -352,6 +352,7 @@ $baseFontSize: 16px;
   }
 
   .signIn {
+    // height: 466px;
     background-image: url(../images/desk_bottom.png);
     background-repeat: no-repeat;
     background-size: cover;
