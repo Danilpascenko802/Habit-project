@@ -1,0 +1,69 @@
+.notification-js{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prompt-form {
+    display: inline-block;
+    padding: 25px 25px 25px 25px;
+    width: 200px;
+    border: 1px solid #8348bf;
+    background: white ;
+    vertical-align: middle;
+  }
+  
+  #prompt-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  #prompt-form-container:before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+  }
+  
+  #cover-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.3;
+  }
+  
+  #period, #begin, #finish {
+    display: block;
+    margin: 5px;
+    width: 180px;
+    border-top:0 ;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #8348bf;
+  
+  }
+  #submit {
+    margin-top: 10px;
+    background-color: #8348bf;
+    box-shadow:none;
+    color:white;
+    border-radius: 5px;
+  }
+  #cancel {
+    margin-top: 10px;
+    background-color: gray;
+    box-shadow:none;
+    color:white;
+    border-radius: 5px;
+  }
