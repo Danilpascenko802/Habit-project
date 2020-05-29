@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="https://www.clker.com/cliparts/b/o/j/B/l/Z/8-ball.svg.hi.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&amp;subset=cyrillic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,800|Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/sass/main.scss">
+  <title>YourHABIT</title>
+</head>
+
+<body>
+  <!-- монтажная область 1 -->
+  <section class="signIn signUp container">
+    <div class="logo"></div>
+    <button>Вход</button>
+    <button>Создать аккаунт</button>
+  </section>
+
+  <!-- монтажная область 2 -->
+  <section class="signIn_section container">
+    <button class="signIn_header-button">Создать аккаунт</button>
+    <form action="submit">
+      <p>Имя*</p>
+      <input type="text">
+      <p>Фамилия*</p>
+      <input type="text">
+      <p>Номер Телефона</p>
+      <input type="text">
+    </form>
+    <button>Дальше</button>
+  </section>
+
+  <!-- монтажная область 3 -->
+  <section class="signUp_section container">
+    <button class="signUp_header-button">Войти</button>
+    <form action="submit">
+      <p>Номер Телефона</p>
+      <input type="text">
+    </form>
+    <button>Дальше</button>
+  </section>
+
+  <!-- монтажная область 4 -->
+  <section class="user_profile container">
+
+    <form action="submit">
+      <div class="user_photo">
+        <p>Сменить фото</p>
+      </div>
+      <p>Рост*</p>
+      <input type="text">
+      <p>Вес*</p>
+      <input type="text">
+      <p>Дата Рождения</p>
+      <input type="text">
+    </form>
+    <button>Создать</button>
+  </section>
+
+  <!-- монтажная область 5 -->
+  <section class="habits container">
+    <div class="habits_header">
+      <p>+</p>
+    </div>
+    <h2>Привычки</h2>
+    <div class="habits_dates"></div>
+    <div class="habits_area">
+      <!-- сюда встраивается элемент привычки -->
+    </div>
+  </section>
+  <!-- 3 формы с разными фоновыми цветами -->
+  <article class="newHabit_modal container">
+    <h2>Новая Привычка</h2>
+    <form action="submit">
+      <p>Название</p>
+      <input type="text">
+      <p>Мотивируй себя</p>
+      <input type="text">
+      <p>Повторять</p>
+      <input type="text" placeholder="Каждый день">
+      <p>Выберите цвет</p>
+      <input type="text">
+      <p>Напомнить мне</p>
+      <input type="text">
+    </form>
+    <button>Сохранить</button>
+  </article>
+
+  <!-- монтажная область 8 -->
+  <section class="habit_window container">
+
+    <div class="habit_window-header">
+      <button>Назад</button>
+      <h3>Зарядка</h3>
+      <button>Править</button>
+    </div>
+
+    <h4>Прогресс</h4>
+    <div>
+      <!-- сюда подставляется текущее значение прогресса -->
+    </div>
+
+    <h4>График развития привычки</h4>
+    <div>
+      <!-- тут отражается график, какой еще не ясно -->
+    </div>
+
+    <div class="habit_window-calendar">
+      <!-- тут календарь встраивается -->
+    </div>
+
+    <button>Удалить прогресс</button>
+    <button>Удалить привычку</button>
+
+  </section>
+
+</body>
+
+</html>
