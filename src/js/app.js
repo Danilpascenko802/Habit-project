@@ -4,7 +4,7 @@ import { deleteHabit, addHabit } from "./utils/api";
 import users from "../users.json";
 import habits from "../users.json";
 
-export const users = [{}, {}];
+// export const users = [{}, {}];
 
 export default class App {
   constructor() {
