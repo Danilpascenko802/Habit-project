@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "json-loader": "^0.5.7",
+    "pug": "^3.0.0",
     "shortid": "^2.2.14"
   }
 }
