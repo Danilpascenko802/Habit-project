@@ -1,14 +1,14 @@
 // import { generatePhrase } from "./utils/helper";
-import { generateUserId } from "./utils/helper";
-import { deleteHabit, addHabit } from "./utils/api";
-import users from "../users.json";
-import habits from "../users.json";
+// import { generateUserId } from "./utils/helper";
+// import { deleteHabit, addHabit } from "./utils/api";
+// import users from "../users.json";
+// import habits from "../users.json";
 
-export const users = [{}, {}];
+// export const users = [{}, {}];
 
-export default class App {
-  constructor() {
-    this._users = [];
+// export default class App {
+//   constructor() {
+//     this._users = [];
     // this.refs = {};
     // this.refs.todoElement;
     // this.refs.trash = document.querySelector(".todo-trash");
@@ -56,7 +56,7 @@ export default class App {
     // this.refs.trash.addEventListener("dragenter", this.dragEnter);
     // this.refs.trash.addEventListener("dragleave", this.dragLeave);
     // this.refs.trash.addEventListener("drop", this.dragDrop);
-  }
+  // }
 
   //   get notes() {
   //     return this._notes;
@@ -100,7 +100,7 @@ export default class App {
   //     }
 
   //     return div;
-  //   }
+    // }
 
   //   renderNodesList() {
   //     this.refs.start.innerHTML = null;
@@ -259,7 +259,7 @@ export default class App {
   //         this.refs.p.value = null;
   //       }
   //     }
-}
+// }
 
 //   handleCreateNote() {
 //     const obj = {
